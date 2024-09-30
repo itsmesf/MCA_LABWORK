@@ -12,7 +12,7 @@ int main(){
 
     std::string *ptr = &s;
 
-    for (size_t i = ptr->length() ; i > 0 ; i--){     //we can also use int and size_t is unsigned long long int.
+    for (int i = ptr->length() ; i > 0 ; i--){   
         std::cout << (*ptr)[i-1];
     }
 
