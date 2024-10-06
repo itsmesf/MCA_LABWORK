@@ -1,3 +1,5 @@
+--create tables
+
 create table person( 
     driver_id varchar2(5) not null primary key, 
     name varchar2(50) not null, 
@@ -26,12 +28,14 @@ create table owns(
 create table participated( 
     driver_id varchar2(5) not null, 
     regno varchar2(5) not null, 
-    report_number number(5) primary key not null, 
+    report_number number(5)not null, 
     damage_amount number(7) not null, 
     foreign key(driver_id) references person(driver_id), 
     foreign key(regno) references car(regno), 
     foreign key(report_number) references accident(report_number)  
 );
+
+--Insert data into tables
 
 insert into person(driver_id, name, address) values ('D0001' , 'John', 'Aligarh');
 insert into person(driver_id, name, address) values ('D0002','David','Bulandshahr');
@@ -64,11 +68,28 @@ insert into participated values('D0004', 'R0004', 13, 12900);
 insert into participated values('D0005', 'R0005', 14, 9000);
 
 
---damage amount updation
+--update the damage amount for specific accident
+
 update participated
 set damage_amount = 25000
-where report_number = 12;
+where report_number = 12 and regno = 'R0003;
 
--- row insertion in accident table
+-- add new accident to database
+    
 insert into accident values(15,'13 oct 2008','Agra');
+insert into participated values('D0001','R0001',15,12000);
+
+--find total number of unique people who owned cars involved in accidents in 2008
+    
+select count(distinct O.driver_id) as no_of_people from owns O
+join participated P on O.regno = p. regno
+join accident A on P.report_number = A.report_number
+where accd_date like '%08';
+
+--number of accidents for specific car model
+
+    select count(distinct P.report_number) as total_accidents
+from participated P
+join car C on P.regno = C.regno
+where C.model = 'Hyundai';
 
