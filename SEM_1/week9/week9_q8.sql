@@ -18,7 +18,7 @@ create table accident(
 
 create table owns( 
     driver_id varchar2(5) not null, 
-    regno varchar2(5) primary key not null, 
+    regno varchar2(5) not null, 
     foreign key(driver_id) references person(driver_id), 
     foreign key(regno) references car(regno)  
 );
