@@ -62,3 +62,13 @@ insert into participated values('D0002', 'R0002', 11, 25000);
 insert into participated values('D0003', 'R0003', 12, 10600);
 insert into participated values('D0004', 'R0004', 13, 12900);
 insert into participated values('D0005', 'R0005', 14, 9000);
+
+
+--damage amount updation
+update participated
+set damage_amount = 25000
+where report_number = 12;
+
+-- row insertion in accident table
+insert into accident values(15,'13 oct 2008','Agra');
+
