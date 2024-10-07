@@ -79,7 +79,7 @@ where report_number = 12 and regno = 'R0003;
 insert into accident values(15,'13 oct 2008','Agra');
 insert into participated values('D0001','R0001',15,12000);
 
---find total number of unique people who owned cars involved in accidents in 2008
+--find total number of unique people who owned --cars involved in accidents in 2008
     
 select count(distinct O.driver_id) as no_of_people from owns O
 join participated P on O.regno = p. regno
