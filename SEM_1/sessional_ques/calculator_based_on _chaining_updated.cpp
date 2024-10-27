@@ -45,16 +45,15 @@ public:
 
 int main()
 {
+	
     int a, b;
+	
 	std::cout<<"Enter two numbers: ";
 	std::cin >> a >> b;
-	
 	
 	calculator obj(a, b);
 	
 	obj.add().sub().mul().divi().print();
-	
-	return 0;
 
 	return 0;
 }
