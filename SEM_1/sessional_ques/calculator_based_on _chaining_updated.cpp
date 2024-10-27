@@ -29,7 +29,7 @@ public:
     
      calculator& divi(){
          if(this->b !=0){
-             std::cout << "Addition: " << this->a/this->b << std::endl;
+             std::cout << "Division: " << this->a/this->b << std::endl;
          }
          else{
              std::cout << "Not defined..." << std::endl;
