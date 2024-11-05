@@ -17,5 +17,5 @@ int main(){
     }
 
     std::cout << "\nReversed number: " << rev;
-    return 0;3245
+    return 0;
 }
