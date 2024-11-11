@@ -72,7 +72,7 @@ insert into participated values('D0005', 'R0005', 14, 9000);
 
 update participated
 set damage_amount = 25000
-where report_number = 12 and regno = 'R0003;
+where report_number = 12 and regno = 'R0003';
 
 -- add new accident to database
     
