@@ -46,18 +46,8 @@ void DecimalToHexadecimal(int num) {
     while (num != 0) {
         int r = num % 16;
 
-        if (r == 10) {
-            hexa += 'A';
-        } else if (r == 11) {
-            hexa += 'B';
-        } else if (r == 12) {
-            hexa += 'C';
-        } else if (r == 13) {
-            hexa += 'D';
-        } else if (r == 14) {
-            hexa += 'E';
-        } else if (r == 15) {
-            hexa += 'F';
+        if (r >= 10 & r <= 15) {
+            hexa += char(55+r);
         } else {
             hexa = std::to_string(r) + hexa;
         }
