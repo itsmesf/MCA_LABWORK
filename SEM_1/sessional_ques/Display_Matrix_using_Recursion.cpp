@@ -4,7 +4,19 @@ using namespace std;
 const int rows = 3;
 const int cols = 3;
 
-void displayMatrix(int matrix[rows][cols], int r, in c){
+void displayMatrix(int matrix[rows][cols], int r, int c){
+
+if(r == rows) return;
+
+if (c == cols){
+cout<< endl;
+displayMatrix(matrix,r+1,0);
+return;
+}
+
+cout<< matrix[r][c];
+
+return displayMatrix(matrix,r,cols+1);
 
 }
 int main(){
