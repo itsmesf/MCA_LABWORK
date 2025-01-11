@@ -24,7 +24,7 @@ public class w1_q4{
                fahrenheit = Double.parseDouble(userinput);
                tempFah.add(fahrenheit);
                celsius  = (fahrenheit - 32) / 1.8;
-               tempCelsius.add(Double.parseDouble(String.format("%.2f", celsius)));
+               tempCelsius.add( celsius);
              
             }
             catch (NumberFormatException e) {
