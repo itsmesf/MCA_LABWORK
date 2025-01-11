@@ -39,7 +39,7 @@ public class w1_q4{
         System.out.println("-----------------------------");
         
         for (int i = 0; i < tempFah.size(); i++) {
-            System.out.printf("%-15.2f %-15.2f%n", tempFah.get(i), tempCelsius.get(i));
+            System.out.printf("%-15s %-15.2f%n", tempFah.get(i), tempCelsius.get(i));
         }
 
         input.close();
