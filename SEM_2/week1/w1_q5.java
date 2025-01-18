@@ -1,4 +1,4 @@
-public class w1_q7 {
+public class w1_q5 {
     public static void main(String[] args) {
         // Constants
         System.out.println("Math.PI: " + Math.PI);
