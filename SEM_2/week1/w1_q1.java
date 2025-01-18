@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class w1_q2{
+public class w1_q1{
       
     static String country = "India";
       
