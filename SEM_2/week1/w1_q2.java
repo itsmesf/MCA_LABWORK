@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class w1_q4{
+public class w1_q2{
     public static void main(String[] args){
         
         double celsius, fahrenheit;
