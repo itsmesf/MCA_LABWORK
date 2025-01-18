@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class w1_q5 {
+public class w1_q3 {
   public static void main(String args[]) {
     
     double num1, num2, sum , diff, product, quotient, min, max;
