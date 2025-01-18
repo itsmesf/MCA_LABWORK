@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class w1_q6 {
+public class w1_q4 {
     
     static int Round(double num){
     int intNum = (int)num;
