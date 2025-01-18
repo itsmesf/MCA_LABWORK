@@ -6,6 +6,6 @@ public class w2_q3{
             sum+=(1/(double)i);   
         }
 
-        System.out.println("\nSum of reciporcals: "+ Math.round(sum*100.0) /100.0);
+        System.out.println("\nSum of reciprocals: "+ Math.round(sum*100.0) /100.0);
     }
 }
