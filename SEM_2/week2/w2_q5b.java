@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class w2_q2{
+public class w2_q5b{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int num,sum = 0;
