@@ -7,8 +7,7 @@ public class w1_q1{
     public static void main(String[] args){
         
         String name, house_no, street, locality, city, pincode, state;
-      
-        
+
         Scanner input = new Scanner(System.in);
         
         System.out.print("Enter student name: ");

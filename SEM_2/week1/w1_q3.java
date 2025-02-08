@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 public class w1_q3 {
   public static void main(String args[]) {
     
