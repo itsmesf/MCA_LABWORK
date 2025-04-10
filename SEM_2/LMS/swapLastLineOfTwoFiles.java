@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public class swapLastLineOfTwoFiles {  //we need to close both buffered reader and file reader and it throws IOException as well
     public static void main ( String[] args ) {
 
-        File abc = new File ( "C:\\Users\\fatim\\OneDrive\\Desktop\\abc.txt" );
-        File xyz = new File ( "C:\\Users\\fatim\\OneDrive\\Desktop\\xyz.txt" );
+        File abc = new File ( "C:\\Users\\OneDrive\\Desktop\\abc.txt" );
+        File xyz = new File ( "C:\\Users\\OneDrive\\Desktop\\xyz.txt" );
 
         ArrayList<String> fileabc = new ArrayList<> ( );
         ArrayList<String> filexyz = new ArrayList<> ( );
