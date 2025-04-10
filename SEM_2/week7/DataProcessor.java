@@ -110,10 +110,10 @@ public class DataProcessor {
 
         DataProcessor obj = new DataProcessor ();
 
-        obj.createFile ( "C:\\Users\\fatim\\OneDrive\\Desktop\\week7.txt" );
-        obj.writeValuesToFile ( "C:\\Users\\fatim\\OneDrive\\Desktop\\week7.txt" );
-        List<Double> values = obj.readValuesFromFile("C:\\Users\\fatim\\OneDrive\\Desktop\\week7.txt");
-        obj.writeResultToFile ( obj.calculateAverage ( values ), "C:\\Users\\fatim\\OneDrive\\Desktop\\week7r.txt"  );
+        obj.createFile ( "C:\\Users\\OneDrive\\Desktop\\week7.txt" );
+        obj.writeValuesToFile ( "C:\\Users\\OneDrive\\Desktop\\week7.txt" );
+        List<Double> values = obj.readValuesFromFile("C:\\Users\\OneDrive\\Desktop\\week7.txt");
+        obj.writeResultToFile ( obj.calculateAverage ( values ), "C:\\Users\\OneDrive\\Desktop\\week7r.txt"  );
 
     }
 }
