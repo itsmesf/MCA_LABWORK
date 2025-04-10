@@ -34,6 +34,6 @@ public class ExceptionUsingLogging {
 
         LoggingFramework.setConfigFile();
 
-        readFile("C:\\Users\\fatim\\abc.txt");
+        readFile("C:\\Users\\abc.txt");
     }
 }
