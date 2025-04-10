@@ -43,9 +43,9 @@ public class AlternateLinesOfTwoFiles {
 
     public static void main ( String[] args ) {
 
-        String abc = "C:\\Users\\fatim\\OneDrive\\Desktop\\abc.txt";
-        String xyz = "C:\\Users\\fatim\\OneDrive\\Desktop\\xyz.txt";
-        String both ="C:\\Users\\fatim\\OneDrive\\Desktop\\both.txt";
+        String abc = "C:\\Users\\OneDrive\\Desktop\\abc.txt";
+        String xyz = "C:\\Users\\OneDrive\\Desktop\\xyz.txt";
+        String both ="C:\\Users\\OneDrive\\Desktop\\both.txt";
 
         try {
             createNewFile ( both);
