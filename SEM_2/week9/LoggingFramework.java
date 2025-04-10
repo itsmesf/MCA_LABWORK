@@ -12,7 +12,7 @@ public class LoggingFramework {
     public static void setConfigFile(){
         try {
             // Manually set the configuration file
-            FileInputStream configFile = new FileInputStream("C:/Users/fatim/OneDrive/Desktop/MCA/labwork_mca/MCA_LABWORK/SEM_2/logs/logging.properties");
+            FileInputStream configFile = new FileInputStream("C:/Users/logs/logging.properties");
             LogManager.getLogManager().readConfiguration(configFile);
             System.out.println("Logging configuration loaded successfully.");
         }
@@ -35,6 +35,6 @@ public class LoggingFramework {
     public static void main(String[] args) {
 
         setConfigFile();
-        readFile("C:\\Users\\fatim\\OneDrive\\Desktop\\abc.txt" );
+        readFile("C:\\Users\\OneDrive\\Desktop\\abc.txt" );
     }
 }
