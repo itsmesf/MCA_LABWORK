@@ -21,7 +21,7 @@ public class FileHandler {
 
         LoggingFramework.setConfigFile ();
 
-        File f = new File ( "C:\\Users\\fatim\\OneDrive\\xyz.txt" );
+        File f = new File ( "C:\\Users\\OneDrive\\xyz.txt" );
 
         try(FileReader reader = new FileReader ( f )) {
 
