@@ -5,9 +5,9 @@ import java.io.File;
 public class renameFile {
     public static void main ( String[] args ) {
 
-        File abc = new File ( "C:\\Users\\fatim\\OneDrive\\Desktop\\abc.txt" );  //existing file
-        File xyz = new File ( "C:\\Users\\fatim\\OneDrive\\Desktop\\xyz.txt" );  // existing file
-        File temp = new File ( "C:\\Users\\fatim\\OneDrive\\Desktop\\temp.txt" ); //non-existing file
+        File abc = new File ( "C:\\Users\\OneDrive\\Desktop\\abc.txt" );  //existing file
+        File xyz = new File ( "C:\\Users\\OneDrive\\Desktop\\xyz.txt" );  // existing file
+        File temp = new File ( "C:\\Users\\OneDrive\\Desktop\\temp.txt" ); //non-existing file
 
        abc.renameTo (temp );   //---------abc --------> temp;   // abc will become non-existing and temp will become existing
        xyz.renameTo ( abc );    //----------xyz --------> abc   //  xyz will become non-existing and abc will become non-existing
