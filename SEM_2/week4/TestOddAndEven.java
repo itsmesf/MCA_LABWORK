@@ -31,12 +31,13 @@ public class TestOddAndEven{
 
             try{
                 obj.num = Integer.parseInt(userInput);
+                obj.addNumber(obj.num);
             }
 
             catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a valid number or 'exit' to quit.");
             }
-            obj.addNumber(obj.num);
+
         }
         obj.tostring();
     }

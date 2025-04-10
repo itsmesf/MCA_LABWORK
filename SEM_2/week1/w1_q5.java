@@ -1,3 +1,4 @@
+package week1;
 public class w1_q5 {
     public static void main(String[] args) {
         // Constants

@@ -1,5 +1,6 @@
 //F to C conversion
 
+package week1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -32,8 +33,7 @@ public class w1_q2{
             }
             
         } 
-        
-       
+
         System.out.println("\nFahrenheit to Celsius Conversion List\n");
         System.out.printf("%-15s %-15s%n", "Fahrenheit", "Celsius");
         System.out.println("-----------------------------");

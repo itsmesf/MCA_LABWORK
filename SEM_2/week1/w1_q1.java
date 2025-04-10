@@ -1,9 +1,10 @@
-import java.util.Scanner;
+package week1;
 
+import java.util.Scanner;
 public class w1_q1{
       
     static String country = "India";
-      
+
     public static void main(String[] args){
         
         String name, house_no, street, locality, city, pincode, state;

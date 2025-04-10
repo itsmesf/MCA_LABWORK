@@ -29,7 +29,7 @@ public class Commission {
         String userInput;
 
         while(true){
-            System.out.print("Enter the sale amount ('q' to exit): ");
+            System.out.print("\nEnter the sale amount ('q' to exit): ");
             userInput = input.nextLine();
 
             if(userInput.equalsIgnoreCase("q")){
